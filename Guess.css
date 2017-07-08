@@ -1,0 +1,27 @@
+body{
+    background-color: gray;
+    text-align: center;
+    margin-top: 26%;
+}
+
+.button{
+    font-size: 20px;
+}
+.button:hover{
+    color: white;
+    background-color: red;
+}
+
+input[type="text"] {
+  width: 15%;
+  height: 15%;
+  font-family: sans-serif;
+  font-size: 18px;
+  margin-bottom: 5px;
+  text-align: center;
+  align-content: center;
+}
+input[type="text"]:focus {
+  outline: none;
+  background-color: rgb(234, 234, 199);
+}
